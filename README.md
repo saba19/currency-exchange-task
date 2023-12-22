@@ -7,7 +7,7 @@
 
 
 ## Installation
-To install dependencies run ```composer install```. To run test use ```php bin/phpunitt```.
+To install dependencies run ```composer install```. To run test use ```php bin/phpunit```.
 
 ## Introduction
 
