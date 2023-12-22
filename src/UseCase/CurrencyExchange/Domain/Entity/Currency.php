@@ -7,5 +7,4 @@ enum Currency: string
     case EUR = 'EUR';
     case GBP = 'GBP';
 
-
 }

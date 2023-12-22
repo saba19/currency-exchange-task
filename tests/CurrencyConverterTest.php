@@ -12,7 +12,6 @@ use PHPUnit\Framework\TestCase;
 
 class CurrencyConverterTest extends TestCase
 {
-
     public function testSellEuroForGbp()
     {
         $currencyConverter = new CurrencyConverter();

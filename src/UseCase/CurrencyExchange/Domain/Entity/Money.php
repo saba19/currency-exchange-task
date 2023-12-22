@@ -16,7 +16,6 @@ class Money
         $this->currency = $currency;
     }
 
-
     /** @throws CurrencyMismatchException */
     public function add(Money $money): void
     {

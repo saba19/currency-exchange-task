@@ -32,5 +32,4 @@ readonly class ExchangeData
         return $this->amount;
     }
 
-
 }

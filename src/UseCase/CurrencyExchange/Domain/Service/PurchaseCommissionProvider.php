@@ -9,5 +9,4 @@ class PurchaseCommissionProvider implements CommissionProvider
         return 0.01;
     }
 
-
 }

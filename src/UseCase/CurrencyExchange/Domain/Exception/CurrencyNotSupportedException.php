@@ -16,5 +16,4 @@ final class CurrencyNotSupportedException extends DomainException
         );
     }
 
-
 }

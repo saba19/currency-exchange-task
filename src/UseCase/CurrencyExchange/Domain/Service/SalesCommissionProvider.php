@@ -9,5 +9,4 @@ class SalesCommissionProvider implements CommissionProvider
         return 0.01;
     }
 
-
 }
