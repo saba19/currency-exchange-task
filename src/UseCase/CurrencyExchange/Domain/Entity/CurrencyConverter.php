@@ -2,9 +2,9 @@
 
 namespace App\UseCase\CurrencyExchange\Domain\Entity;
 
-use App\UseCase\Exchange\Domain\Service\CommissionProvider;
-use App\UseCase\Exchange\Domain\Service\Dto\ExchangeData;
-use App\UseCase\Exchange\Domain\Service\ExchangeRateProvider;
+use App\UseCase\CurrencyExchange\Domain\Service\CommissionProvider;
+use App\UseCase\CurrencyExchange\Domain\Service\Dto\ExchangeData;
+use App\UseCase\CurrencyExchange\Domain\Service\ExchangeRateProvider;
 
 class CurrencyConverter
 {

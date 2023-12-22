@@ -5,7 +5,7 @@ namespace App\UseCase\CurrencyExchange\Domain\Entity;
 use App\UseCase\CurrencyExchange\Domain\Exception\CurrencyNotSupportedException;
 use App\UseCase\CurrencyExchange\Domain\Exception\InsufficientBalance;
 use App\UseCase\CurrencyExchange\Domain\Service\CommissionProvider;
-use App\UseCase\CurrencyExchange\Domain\Service\Dto\CurrencyExchangeData;
+use App\UseCase\CurrencyExchange\Domain\Service\Dto\ExchangeData;
 use App\UseCase\CurrencyExchange\Domain\Service\ExchangeRateProvider;
 
 readonly class Client
@@ -130,7 +130,5 @@ readonly class Client
     {
         return $this->eurBalance;
     }
-
-
 
 }

@@ -2,8 +2,8 @@
 
 namespace App\UseCase\CurrencyExchange\Domain\Service;
 
-use App\UseCase\Exchange\Domain\Entity\Currency;
-use App\UseCase\Exchange\Domain\Exception\MissingExchangeRateException;
+use App\UseCase\CurrencyExchange\Domain\Entity\Currency;
+use App\UseCase\CurrencyExchange\Domain\Exception\MissingExchangeRateException;
 
 class DefaultExchangeRateProvider implements ExchangeRateProvider
 {

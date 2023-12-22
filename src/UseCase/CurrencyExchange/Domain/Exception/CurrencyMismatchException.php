@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UseCase\ExCurrencyExchangechange\Domain\Exception;
+namespace App\UseCase\CurrencyExchange\Domain\Exception;
 
 use App\UseCase\CurrencyExchange\Domain\Entity\Currency;
 
